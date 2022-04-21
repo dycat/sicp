@@ -1,3 +1,5 @@
+// Solution to exercise 1.7
+
 function average(x, y) {
     return (x + y) / 2;
 }
