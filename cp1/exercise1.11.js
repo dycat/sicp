@@ -1,3 +1,9 @@
+/*
+A function ff is defined by the rules f(n)=nf(n)=n if n < 3n<3 and 
+f(n)={f(n-1)}+2f(n-2)+3f(n-3)f(n)=f(n−1)+2f(n−2)+3f(n−3) 
+if n\ge 3n≥3. Write a JavaScript function that computes ff by means of a recursive process. 
+Write a function that computes ff by means of an iterative process.
+*/
 
 // recursion
 function compute_recursive(n) {
